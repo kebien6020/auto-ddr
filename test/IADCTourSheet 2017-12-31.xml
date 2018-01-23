@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMSExport version="1.02">
+  <container name="IADCTourSheet" index="0">
+    <container name="Header" index="0">
+      <container name="WellInfo" index="0">
+        <field name="Date" type="date">
+          <value index="0">2017-12-31 00:00:00.000</value>
+        </field>
+        <field name="UseSSN" type="integer">
+          <value index="0">1</value>
+        </field>
+        <field name="Country" type="string">
+          <value index="0">Colombia</value>
+        </field>
+        <field name="Lease" type="string">
+          <value index="0">Bacano</value>
+        </field>
+        <field name="Operator" type="string">
+          <value index="0">Parex Resources Inc</value>
+        </field>
+        <field name="WellNo" type="string">
+          <value index="0">6</value>
+        </field>
+        <field name="Contractor" type="string">
+          <value index="0">Petrex</value>
+        </field>
+        <field name="Company" type="string">
+          <value index="0">Petrex</value>
+        </field>
+        <field name="RigNo" type="string">
+          <value index="0">5857</value>
+        </field>
+        <field name="FieldorDistrict" type="string">
+          <value index="0">Santa Elena de upia</value>
+        </field>
+        <field name="County" type="string">
+          <value index="0">Villanueva</value>
+        </field>
+        <field name="StateCountry" type="string">
+          <value index="0">Casanare</value>
+        </field>
+        <field name="WellNameNo" type="string">
+          <value index="0">Bacano 6</value>
+        </field>
+        <field name="BaseReportNo" type="string">
+          <value index="0">43</value>
+        </field>
+        <field name="ReportNo" type="string"/>
+        <field name="RigManager2" type="string"/>
+        <field name="RigManager" type="string"/>
+        <field name="TimeClockStatusMessage" type="string"/>
+        <field name="SignatureOfContractorsRepresentative" type="string"/>
+        <field name="SignatureOfContractorsRepresentativePrinted" type="string"/>
+        <field name="WaterDepth" type="double" unit="ft"/>
+        <field name="APIWellNumber" type="string"/>
+        <field name="SignatureOfOperatorsRepresentative" type="string"/>
+        <field name="SignatureOfOperatorsRepresentativePrinted" type="string"/>
+        <field name="TimeClockOverridden" type="integer"/>
+        <field name="RigManagerSSN" type="string"/>
+        <field name="RigManagerPayrollNumber" type="string"/>
+      </container>
+      <container name="WireLineRecord" index="0">
+        <field name="WireLineRecordNoLines" type="double">
+          <value index="0">14</value>
+        </field>
+        <field name="WireLineRecordCummulativeWearorTrips" type="double"/>
+        <field name="WireLineRecordWearorTripsSinceLastCut" type="double"/>
+        <field name="WireLineRecordPresentLength" type="double" unit="ft"/>
+        <field name="WireLineRecordLengthCutOff" type="double" unit="ft"/>
+        <field name="WireLineRecordLengthSlipped" type="double" unit="ft"/>
+        <field name="WireLineRecordSize" type="double" unit="in"/>
+        <field name="WireLineRecordReelNo" type="double"/>
+      </container>
+      <container name="DCDP" index="0">
+        <field name="DCDPStringNo" type="integer[]">
+          <value index="0">1</value>
+        </field>
+        <field name="DCDPToolJointOD" type="double[]" unit="in">
+          <value index="0">7</value>
+        </field>
+        <field name="DCDPGrade" type="string[]">
+          <value index="0">S-135</value>
+        </field>
+        <field name="DCDPWeight" type="double[]" unit="lb/ft">
+          <value index="0">30.88</value>
+        </field>
+        <field name="DCDPSize" type="double[]" unit="in">
+          <value index="0">5.875</value>
+        </field>
+        <field name="DCDPThreadType" type="string[]"/>
+      </container>
+      <container name="PumpInfo" index="0">
+        <field name="PumpInfoNo" type="double[]">
+          <value index="0">1</value>
+          <value index="1">2</value>
+          <value index="2">3</value>
+          <value index="3">4</value>
+        </field>
+        <field name="PumpInfoStrokeLength" type="double[]" unit="in">
+          <value index="0">14</value>
+          <value index="1">14</value>
+          <value index="2">14</value>
+        </field>
+        <field name="PumpInfoType" type="string[]">
+          <value index="0">TPK 2200</value>
+          <value index="1">TPK 2200</value>
+          <value index="2">TPK 2200</value>
+        </field>
+        <field name="PumpInfoManufacturer" type="string[]">
+          <value index="0">WIRTH</value>
+          <value index="1">WIRTH</value>
+          <value index="2">WIRTH</value>
+        </field>
+      </container>
+      <container name="LastCasingTubular" index="0">
+        <field name="LastCasingTubularLinerSize" type="string[]" unit="in">
+          <value index="0">13.375</value>
+          <value index="1">9.625</value>
+        </field>
+        <field name="LastCasingTubularLinerMake" type="string[]">
+          <value index="0">BTC</value>
+          <value index="1">BTC</value>
+        </field>
+        <field name="LastCasingTubularLinerWeight" type="double[]" unit="lb/ft">
+          <value index="0">61</value>
+          <value index="1">53.5</value>
+        </field>
+        <field name="LastCasingTubularLinerGrade" type="string[]">
+          <value index="0">N80</value>
+          <value index="1">P110</value>
+        </field>
+        <field name="LastCasingTubularLinerNoJoints" type="integer[]">
+          <value index="0">158</value>
+          <value index="1">261</value>
+        </field>
+        <field name="LastCasingTubularLinerLength" type="double[]" unit="ft">
+          <value index="0">6316</value>
+          <value index="1">10409</value>
+        </field>
+        <field name="LastCasingTubularLinerRKBToCasing" type="double[]" unit="ft">
+          <value index="0">43</value>
+          <value index="1">43</value>
+        </field>
+        <field name="LastCasingTubularLinerSetAt" type="double[]" unit="ft">
+          <value index="0">6316</value>
+          <value index="1">10409</value>
+        </field>
+        <field name="LastCasingTubularLinerType" type="string[]">
+          <value index="0">Surface</value>
+          <value index="1">Intermediate</value>
+        </field>
+      </container>
+      <field name="MudCostSummary" type="double[]"/>
+      <field name="DayWorkTitles" type="string[]"/>
+      <field name="TimeSummaryTitles" type="string[]">
+        <value index="0">Cambio de ele</value>
+      </field>
+    </container>
+    <field name="TourCount" type="integer">
+      <value index="0">2</value>
+    </field>
+    <field name="FirstSignoffComplete" type="integer">
+      <value index="0">0</value>
+    </field>
+    <field name="ReportHasChanged" type="integer">
+      <value index="0">0</value>
+    </field>
+    <field name="FirstActivityCode2Complete" type="integer">
+      <value index="0">0</value>
+    </field>
+    <field name="SafeEmpID" type="integer">
+      <value index="0">0</value>
+    </field>
+    <field name="WellID" type="string">
+      <value index="0">9898b43d-fda2-4b70-9bdd-3985ec9be8e8</value>
+    </field>
+    <container name="Tour" index="0">
+      <container name="PumpSpeed" index="0">
+        <field name="PumpSpeedPump1LinerSize" type="double[]" unit="in">
+          <value index="0">6</value>
+        </field>
+        <field name="PumpSpeedPump2LinerSize" type="double[]" unit="in">
+          <value index="0">6</value>
+        </field>
+        <field name="PumpSpeedPump3LinerSize" type="double[]" unit="in">
+          <value index="0">6</value>
+        </field>
+        <field name="PumpSpeedTotalPumpOutput" type="integer[]"/>
+        <field name="PumpSpeedPump4SPM" type="string[]"/>
+        <field name="PumpSpeedPump4LinerSize" type="double[]" unit="in"/>
+        <field name="PumpSpeedPump3SPM" type="string[]"/>
+        <field name="PumpSpeedPump2SPM" type="string[]"/>
+        <field name="PumpSpeedPump1SPM" type="string[]"/>
+        <field name="PumpSpeedPumpPressure" type="integer[]" unit="psi"/>
+      </container>
+      <field name="StartofTourTime" type="time">
+        <value index="0">00:00:00.000</value>
+      </field>
+      <field name="EndofTourTime" type="time">
+        <value index="0">12:00:00.000</value>
+      </field>
+      <field name="StartofTourDateHidden" type="date">
+        <value index="0">2017-12-31 00:00:00.000</value>
+      </field>
+      <field name="EndofTourDateHidden" type="date">
+        <value index="0">2017-12-31 00:00:00.000</value>
+      </field>
+      <container name="Comments" index="0">
+        <field name="CommentsObmLabel" type="string">
+          <value index="0">
+          </value>
+        </field>
+        <field name="CommentsObmYesNo" type="string"/>
+        <field name="CommentsRemarks" type="string"/>
+      </container>
+      <container name="ActivityDetails" index="0">
+        <field name="ActivityFrom" type="time[]">
+          <value index="0">00:00:00.000</value>
+          <value index="1">06:00:00.000</value>
+          <value index="2">06:30:00.000</value>
+          <value index="3">08:00:00.000</value>
+          <value index="4">09:30:00.000</value>
+          <value index="5">11:00:00.000</value>
+          <value index="6">11:30:00.000</value>
+        </field>
+        <field name="ActivityCodeNo" type="string[]">
+          <value index="0">6</value>
+          <value index="1">6</value>
+          <value index="2">6</value>
+          <value index="3">3</value>
+          <value index="4">6</value>
+          <value index="5">6</value>
+          <value index="6">6</value>
+        </field>
+        <field name="ActivityDetailsOfOperations" type="string[]">
+          <value index="0">Se continua sacando DP 5 7/8'' XT 57  en elevador desde 14,663  ft hasta 12,300 ft. monitoreando pozo al tanque de viaje.  Punto apretado @  13,965  con bomba  450  gpm.  2,080 psi. rpm 80, tq 34.  Punto apretado @  13,010  con bomba  450  gpm.  2,120 psi. rpm 70- 80, tq 28- 34.  </value>
+          <value index="1">Bombeando 20 bbls de pildora pesada de 11 ppg, con 300 gpm, 850 psi desplazandola con 120 stks.</value>
+          <value index="2">Se continua sacando DP 5 7/8'' XT 57  en elevador desde 12,300  ft hasta 10,940 ft. monitoreando pozo al tanque de viaje.   Restriccion @ 10,940 ft  60 overpool sin exito.</value>
+          <value index="3">Viaje fuera del pozo con back reaming desde 10,940 ft hasta 10,780 ft, con 600 gpm, 3060 psi, 80 rpm, 20 - 28 tq.</value>
+          <value index="4">Se continua sacando DP 5 7/8'' XT 57  en elevador desde 110,780  ft hasta 8,700 ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+          <value index="5">Bombeando 30 bbls de pildora pesada de 11 ppg, con 380 gpm, 1280 psi desplazandola con 120 stks. ( No funciono).</value>
+          <value index="6">Se continua sacando DP 5 7/8'' XT 57  en elevador desde 8,700  ft hasta 8,000 ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+        </field>
+        <field name="ActivityHiddenCodeNo" type="string[]">
+          <value index="0">6</value>
+          <value index="1">6</value>
+          <value index="2">6</value>
+          <value index="3">3</value>
+          <value index="4">6</value>
+          <value index="5">6</value>
+          <value index="6">6</value>
+        </field>
+        <field name="ActivityHiddenCodeMapping" type="string[]">
+          <value index="0">6</value>
+          <value index="1">6</value>
+          <value index="2">6</value>
+          <value index="3">3</value>
+          <value index="4">6</value>
+          <value index="5">6</value>
+          <value index="6">6</value>
+        </field>
+        <field name="ActivityFromLastSaved" type="time[]">
+          <value index="0">00:00:00.000</value>
+          <value index="1">06:00:00.000</value>
+          <value index="2">06:30:00.000</value>
+          <value index="3">08:00:00.000</value>
+          <value index="4">09:30:00.000</value>
+          <value index="5">11:00:00.000</value>
+          <value index="6">11:30:00.000</value>
+        </field>
+        <field name="ActivityHiddenCodeNoLastSaved" type="string[]">
+          <value index="0">6</value>
+          <value index="1">6</value>
+          <value index="2">6</value>
+          <value index="3">3</value>
+          <value index="4">6</value>
+          <value index="5">6</value>
+          <value index="6">6</value>
+        </field>
+        <field name="ActivityDetailsOfOperationsLastSaved" type="string[]">
+          <value index="0">Se continua sacando DP 5 7/8'' XT 57  en elevador desde 14,663  ft hasta 12,300 ft. monitoreando pozo al tanque de viaje.  Punto apretado @  13,965  con bomba  450  gpm.  2,080 psi. rpm 80, tq 34.  Punto apretado @  13,010  con bomba  450  gpm.  2,120 psi. rpm 70- 80, tq 28- 34.  </value>
+          <value index="1">Bombeando 20 bbls de pildora pesada de 11 ppg, con 300 gpm, 850 psi desplazandola con 120 stks.</value>
+          <value index="2">Se continua sacando DP 5 7/8'' XT 57  en elevador desde 12,300  ft hasta 10,940 ft. monitoreando pozo al tanque de viaje.   Restriccion @ 10,940 ft  60 overpool sin exito.</value>
+          <value index="3">Viaje fuera del pozo con back reaming desde 10,940 ft hasta 10,780 ft, con 600 gpm, 3060 psi, 80 rpm, 20 - 28 tq.</value>
+          <value index="4">Se continua sacando DP 5 7/8'' XT 57  en elevador desde 110,780  ft hasta 8,700 ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+          <value index="5">Bombeando 30 bbls de pildora pesada de 11 ppg, con 380 gpm, 1280 psi desplazandola con 120 stks. ( No funciono).</value>
+          <value index="6">Se continua sacando DP 5 7/8'' XT 57  en elevador desde 8,700  ft hasta 8,000 ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+        </field>
+        <field name="ActivityTo" type="time[]">
+          <value index="0">06:00:00.000</value>
+          <value index="1">06:30:00.000</value>
+          <value index="2">08:00:00.000</value>
+          <value index="3">09:30:00.000</value>
+          <value index="4">11:00:00.000</value>
+          <value index="5">11:30:00.000</value>
+          <value index="6">12:00:00.000</value>
+        </field>
+        <field name="ActivityElapsedTime" type="time[]">
+          <value index="0">06:00:00.000</value>
+          <value index="1">00:30:00.000</value>
+          <value index="2">01:30:00.000</value>
+          <value index="3">01:30:00.000</value>
+          <value index="4">01:30:00.000</value>
+          <value index="5">00:30:00.000</value>
+          <value index="6">00:30:00.000</value>
+        </field>
+        <field name="ActivityHiddenCalendarDate" type="date[]">
+          <value index="0">2017-12-31 00:00:00.000</value>
+          <value index="1">2017-12-31 00:00:00.000</value>
+          <value index="2">2017-12-31 00:00:00.000</value>
+          <value index="3">2017-12-31 00:00:00.000</value>
+          <value index="4">2017-12-31 00:00:00.000</value>
+          <value index="5">2017-12-31 00:00:00.000</value>
+          <value index="6">2017-12-31 00:00:00.000</value>
+        </field>
+        <field name="ActivityHiddenFromCalendarDate" type="date[]">
+          <value index="0">2017-12-31 00:00:00.000</value>
+          <value index="1">2017-12-31 00:00:00.000</value>
+          <value index="2">2017-12-31 00:00:00.000</value>
+          <value index="3">2017-12-31 00:00:00.000</value>
+          <value index="4">2017-12-31 00:00:00.000</value>
+          <value index="5">2017-12-31 00:00:00.000</value>
+          <value index="6">2017-12-31 00:00:00.000</value>
+        </field>
+        <field name="ActivityHiddenToCalendarDate" type="date[]">
+          <value index="0">2017-12-31 00:00:00.000</value>
+          <value index="1">2017-12-31 00:00:00.000</value>
+          <value index="2">2017-12-31 00:00:00.000</value>
+          <value index="3">2017-12-31 00:00:00.000</value>
+          <value index="4">2017-12-31 00:00:00.000</value>
+          <value index="5">2017-12-31 00:00:00.000</value>
+          <value index="6">2017-12-31 00:00:00.000</value>
+        </field>
+        <field name="ActivityToLastSaved" type="time[]">
+          <value index="0">06:00:00.000</value>
+          <value index="1">06:30:00.000</value>
+          <value index="2">08:00:00.000</value>
+          <value index="3">09:30:00.000</value>
+          <value index="4">11:00:00.000</value>
+          <value index="5">11:30:00.000</value>
+          <value index="6">12:00:00.000</value>
+        </field>
+      </container>
+      <container name="DrillingAssembly" index="0">
+        <field name="DrillingAssemblyTotal" type="double" unit="ft">
+          <value index="0">15046</value>
+        </field>
+        <field name="DrillingAssemblyKellydown" type="double" unit="ft">
+          <value index="0">2.06</value>
+        </field>
+        <field name="DrillingAssemblyStandsLength" type="double" unit="ft">
+          <value index="0">13678.21</value>
+        </field>
+        <field name="DrillingAssemblyStandsOD" type="string">
+          <value index="0">5 7/8"</value>
+        </field>
+        <field name="DrillingAssemblyStands" type="integer">
+          <value index="0">144</value>
+        </field>
+        <field name="DrillingAssemblyNo" type="string[]">
+          <value index="0">1</value>
+          <value index="1">1</value>
+          <value index="2">1</value>
+          <value index="3">1</value>
+          <value index="4">1 </value>
+          <value index="5">1</value>
+          <value index="6">1</value>
+          <value index="7">1</value>
+          <value index="8">1</value>
+          <value index="9">1</value>
+          <value index="10">1</value>
+          <value index="11">1</value>
+          <value index="12">1</value>
+          <value index="13">3</value>
+          <value index="14">1</value>
+          <value index="15">24</value>
+          <value index="16">1</value>
+          <value index="17">1</value>
+          <value index="18">1</value>
+          <value index="19">3</value>
+          <value index="20">1</value>
+          <value index="21">1</value>
+          <value index="22">1</value>
+          <value index="23">9</value>
+        </field>
+        <field name="DrillingAssemblyDescription" type="string[]">
+          <value index="0">BIT</value>
+          <value index="1">MOTOR  STRAFORCE </value>
+          <value index="2"> STB</value>
+          <value index="3"> X-OVER PIN X PIN</value>
+          <value index="4">AFR COLLAR</value>
+          <value index="5">DGR COLLAR</value>
+          <value index="6">PDW COLLAR</value>
+          <value index="7">HCIM COLLAR</value>
+          <value index="8">X - OVER</value>
+          <value index="9">CONVERCION SUB</value>
+          <value index="10">ALD COLLAR</value>
+          <value index="11">CTN COLLAR</value>
+          <value index="12">SHOC 650 SISTEM</value>
+          <value index="13">DC</value>
+          <value index="14">X - OVER</value>
+          <value index="15">HWDP</value>
+          <value index="16">X - OVER</value>
+          <value index="17">JAR </value>
+          <value index="18">X - OVER</value>
+          <value index="19">HWDP</value>
+          <value index="20">X - OVER</value>
+          <value index="21">AGITADOR</value>
+          <value index="22">X - 0VER</value>
+          <value index="23">HWDP</value>
+        </field>
+        <field name="DrillingAssemblyOD" type="string[]" unit="in">
+          <value index="0">8 1/2"</value>
+          <value index="1">6 3/4"</value>
+          <value index="2">8''</value>
+          <value index="3">6 3/4"</value>
+          <value index="4">6 3/4"</value>
+          <value index="5">6 3/4"</value>
+          <value index="6">6 3/4"</value>
+          <value index="7">6 3/4''</value>
+          <value index="8">6 3/4''</value>
+          <value index="9">6 3/4''</value>
+          <value index="10">6 3/4''</value>
+          <value index="11">6 3/4''</value>
+          <value index="12">6 3/4''</value>
+          <value index="13">6 1/2''</value>
+          <value index="14">6 7/8''</value>
+          <value index="15">5 7/8''</value>
+          <value index="16">6 5/8''</value>
+          <value index="17">6 1/2''</value>
+          <value index="18">6 1/2''</value>
+          <value index="19">5 7/8''</value>
+          <value index="20">7''</value>
+          <value index="21">6 3/4''</value>
+          <value index="22">7''</value>
+          <value index="23">5 7/8''</value>
+        </field>
+        <field name="DrillingAssemblyLength" type="double[]" unit="ft">
+          <value index="0">0.96</value>
+          <value index="1">27.97</value>
+          <value index="2">5.42</value>
+          <value index="3">2.09</value>
+          <value index="4">10.71</value>
+          <value index="5">4.51</value>
+          <value index="6">4.41</value>
+          <value index="7">6.75</value>
+          <value index="8">2.15</value>
+          <value index="9">1.56</value>
+          <value index="10">14.36</value>
+          <value index="11">11.83</value>
+          <value index="12">15.31</value>
+          <value index="13">92.34</value>
+          <value index="14">3.98</value>
+          <value index="15">732.08</value>
+          <value index="16">3.81</value>
+          <value index="17">29.47</value>
+          <value index="18">3.33</value>
+          <value index="19">91.9</value>
+          <value index="20">3.19</value>
+          <value index="21">20.88</value>
+          <value index="22">2.41</value>
+          <value index="23">274.31</value>
+        </field>
+        <field name="DrillingAssemblyWTofString" type="integer"/>
+        <field name="DrillingAssemblySinglesLength" type="double" unit="ft"/>
+        <field name="DrillingAssemblySinglesOD" type="string"/>
+        <field name="DrillingAssemblySingles" type="integer"/>
+      </container>
+      <container name="Bit" index="0">
+        <field name="BitDepthIn" type="double" unit="ft">
+          <value index="0">13115</value>
+        </field>
+        <field name="BitTFA" type="double">
+          <value index="0">0.98174771875</value>
+        </field>
+        <field name="BitJets" type="integer[]">
+          <value index="0">16</value>
+          <value index="1">16</value>
+          <value index="2">16</value>
+          <value index="3">16</value>
+          <value index="4">16</value>
+        </field>
+        <field name="BitSerialNo" type="string">
+          <value index="0">A240781</value>
+        </field>
+        <field name="BitType" type="string">
+          <value index="0">SKH516M</value>
+        </field>
+        <field name="BitMFG" type="string">
+          <value index="0">NOV</value>
+        </field>
+        <field name="BitSize" type="double" unit="in">
+          <value index="0">8.5</value>
+        </field>
+        <field name="BitNo" type="string">
+          <value index="0">8</value>
+        </field>
+        <field name="BitJetsPopupHidden" type="string[]">
+          <value index="0">16</value>
+          <value index="1">16</value>
+          <value index="2">16</value>
+          <value index="3">16</value>
+          <value index="4">16</value>
+        </field>
+        <field name="BitTotalHoursRun" type="double"/>
+        <field name="BitTotalDrilled" type="double" unit="ft"/>
+        <field name="BitDepthOut" type="double" unit="ft"/>
+        <field name="BitIADCCodes" type="string[]"/>
+      </container>
+      <field name="TimeSummary" type="double[]">
+        <value index="0">
+        </value>
+        <value index="1">
+        </value>
+        <value index="2">1.5</value>
+        <value index="3">
+        </value>
+        <value index="4">
+        </value>
+        <value index="5">10.5</value>
+        <value index="6">
+        </value>
+        <value index="7">
+        </value>
+        <value index="8">
+        </value>
+        <value index="9">
+        </value>
+        <value index="10">
+        </value>
+        <value index="11">
+        </value>
+        <value index="12">
+        </value>
+        <value index="13">
+        </value>
+        <value index="14">
+        </value>
+        <value index="15">
+        </value>
+        <value index="16">
+        </value>
+        <value index="17">
+        </value>
+        <value index="18">
+        </value>
+        <value index="19">
+        </value>
+        <value index="20">
+        </value>
+        <value index="21">
+        </value>
+        <value index="22">
+        </value>
+        <value index="23">12</value>
+      </field>
+      <field name="DayWorkTimeSummary" type="double[]"/>
+      <field name="TimeSummaryCompletion" type="double[]"/>
+      <container name="Payroll" index="0">
+        <field name="PayrollNoDaysSinceLastLostTimeAccident" type="integer"/>
+        <field name="PayrollCrew" type="string[]"/>
+        <field name="PayrollEmployeeIdNo" type="string[]"/>
+        <field name="PayrollName" type="string[]"/>
+        <field name="PayrollHours" type="double[]"/>
+        <field name="PayrollInitial" type="string[]"/>
+        <field name="PayrollInjuredYesNo" type="string[]"/>
+        <field name="PayrollPayCode" type="string[]"/>
+        <field name="PayrollEmpID" type="string[]"/>
+        <field name="PayrollWasImported" type="integer[]"/>
+      </container>
+      <container name="DeviationSurveys" index="0">
+        <field name="DeviationSurveysHorizDisp" type="double[]"/>
+        <field name="DeviationSurveysTVD" type="double[]" unit="ft"/>
+        <field name="DeviationSurveysDirection" type="double[]"/>
+        <field name="DeviationSurveysDeviation" type="double[]"/>
+        <field name="DeviationSurveysDepth" type="double[]" unit="ft"/>
+      </container>
+      <container name="DepthDrilled" index="0">
+        <field name="DepthDrilledWeightOnBit" type="string[]" unit="Klbf"/>
+        <field name="DepthDrilledRotaryRPM" type="string[]"/>
+        <field name="DepthDrilledFormation" type="string[]"/>
+        <field name="DepthDrilledCoreNo" type="integer[]"/>
+        <field name="DepthDrilledDrilledReamedCored" type="string[]"/>
+        <field name="DepthDrilledTo" type="double[]" unit="ft"/>
+        <field name="DepthDrilledFrom" type="double[]" unit="ft"/>
+      </container>
+      <container name="DrillerSign" index="0">
+        <field name="BlankSpace" type="string"/>
+        <field name="DrillerSignature" type="string"/>
+        <field name="DrillerSignaturePrinted" type="string"/>
+      </container>
+      <container name="MudMaterialAdded" index="0">
+        <field name="MudMaterialAddedAmount" type="integer[]"/>
+        <field name="MudMaterialAddedType" type="string[]"/>
+      </container>
+      <container name="MudRecord" index="0">
+        <field name="MudRecordExtraField" type="string[]"/>
+        <field name="MudRecordSolids" type="double[]"/>
+        <field name="MudRecordpH" type="double[]"/>
+        <field name="MudRecordFluidLoss" type="double[]" unit="ml/30min"/>
+        <field name="MudRecordGelStrength" type="string[]" unit="lbf/100ft^2"/>
+        <field name="MudRecordPVYP" type="string[]"/>
+        <field name="MudRecordFunnel" type="double[]" unit="s/qt"/>
+        <field name="MudRecordPressureGradient" type="double[]" unit="psi/ft"/>
+        <field name="MudRecordWeight" type="double[]" unit="lb/gal"/>
+        <field name="MudRecordTime" type="time[]"/>
+      </container>
+      <container name="BitTripCondition" index="0">
+        <field name="BitTripConditionReasonPulled" type="string"/>
+        <field name="BitTripConditionOtherDullChar" type="string"/>
+        <field name="BitTripConditionGage" type="string" unit="in"/>
+        <field name="BitTripConditionBearingSeals" type="string"/>
+        <field name="BitTripConditionCuttingStructureLocation" type="string"/>
+        <field name="BitTripConditionCuttingStructureDullChar" type="string"/>
+        <field name="BitTripConditionCuttingStructureOuter" type="string"/>
+        <field name="BitTripConditionCuttingStructureInner" type="string"/>
+      </container>
+      <container name="Bit" index="1">
+        <field name="BitTotalHoursRun" type="double"/>
+        <field name="BitTotalDrilled" type="double" unit="ft"/>
+        <field name="BitDepthIn" type="double" unit="ft"/>
+        <field name="BitDepthOut" type="double" unit="ft"/>
+        <field name="BitTFA" type="double"/>
+        <field name="BitJets" type="integer[]"/>
+        <field name="BitSerialNo" type="string"/>
+        <field name="BitType" type="string"/>
+        <field name="BitMFG" type="string"/>
+        <field name="BitIADCCodes" type="string[]"/>
+        <field name="BitSize" type="double" unit="in"/>
+        <field name="BitNo" type="string"/>
+      </container>
+    </container>
+    <container name="Tour" index="1">
+      <container name="PumpSpeed" index="0">
+        <field name="PumpSpeedPump1LinerSize" type="double[]" unit="in">
+          <value index="0">6</value>
+        </field>
+        <field name="PumpSpeedPump2LinerSize" type="double[]" unit="in">
+          <value index="0">6</value>
+        </field>
+        <field name="PumpSpeedPump3LinerSize" type="double[]" unit="in">
+          <value index="0">6</value>
+        </field>
+        <field name="PumpSpeedTotalPumpOutput" type="integer[]"/>
+        <field name="PumpSpeedPump4SPM" type="string[]"/>
+        <field name="PumpSpeedPump4LinerSize" type="double[]" unit="in"/>
+        <field name="PumpSpeedPump3SPM" type="string[]"/>
+        <field name="PumpSpeedPump2SPM" type="string[]"/>
+        <field name="PumpSpeedPump1SPM" type="string[]"/>
+        <field name="PumpSpeedPumpPressure" type="integer[]" unit="psi"/>
+      </container>
+      <field name="StartofTourTime" type="time">
+        <value index="0">12:00:00.000</value>
+      </field>
+      <field name="EndofTourTime" type="time">
+        <value index="0">00:00:00.000</value>
+      </field>
+      <field name="StartofTourDateHidden" type="date">
+        <value index="0">2017-12-31 00:00:00.000</value>
+      </field>
+      <field name="EndofTourDateHidden" type="date">
+        <value index="0">2017-12-31 00:00:00.000</value>
+      </field>
+      <container name="Comments" index="0">
+        <field name="CommentsObmLabel" type="string">
+          <value index="0">
+          </value>
+        </field>
+        <field name="CommentsObmYesNo" type="string"/>
+        <field name="CommentsRemarks" type="string"/>
+      </container>
+      <container name="ActivityDetails" index="0">
+        <field name="ActivityDetailsOfOperations" type="string[]">
+          <value index="0">Sacando DP 5 7/8'' XT 57 y BHA # 11 desde 8,000  ft hasta 1,365 ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+          <value index="1">Reacomodando tuberia para liberarla  para la proxima corrida. </value>
+          <value index="2">Sacando a la torre BHA # 11 desde 1,365 ft hasta  647  ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+          <value index="3">Cambio de cuadrilla reunion de seguridad sacar del hueco y bajar herramientas de Halliburton.</value>
+          <value index="4">Sacando a la torre BHA # 11 desde 647  ft hasta 110    ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+          <value index="5">Sacando del hueco  y bajando herramientas direccionales   Monitoreando el pozo al  tanque de viaje.</value>
+          <value index="6">Cambio de elevador de 5.7/8'' a 3.1/2''.  Orden y aseo de la mesa.  Reunion de seguridad viaje de tuberia de 3.1/2. y 5.7/8''.</value>
+          <value index="7">Subiendo y corriendo en el hueco DP 3.1/2' con pata de mula 16  hucos.   desde superficie asta xxxxxx. ft  Monitoreando pozo al tanque de viaje.</value>
+        </field>
+        <field name="ActivityDetailsOfOperationsLastSaved" type="string[]">
+          <value index="0">Sacando DP 5 7/8'' XT 57 y BHA # 11 desde 8,000  ft hasta 1,365 ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+          <value index="1">Reacomodando tuberia para liberarla  para la proxima corrida. </value>
+          <value index="2">Sacando a la torre BHA # 11 desde 1,365 ft hasta  647  ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+          <value index="3">Cambio de cuadrilla reunion de seguridad sacar del hueco y bajar herramientas de Halliburton.</value>
+          <value index="4">Sacando a la torre BHA # 11 desde 647  ft hasta 110    ft. Con tuberia llena utilizando borracho, monitoreando pozo al tanque de viaje.</value>
+          <value index="5">Sacando del hueco  y bajando herramientas direccionales   Monitoreando el pozo al  tanque de viaje.</value>
+          <value index="6">Cambio de elevador de 5.7/8'' a 3.1/2''.  Orden y aseo de la mesa.  Reunion de seguridad viaje de tuberia de 3.1/2. y 5.7/8''.</value>
+          <value index="7">Subiendo y corriendo en el hueco DP 3.1/2' con pata de mula 16  hucos.   desde superficie asta xxxxxx. ft  Monitoreando pozo al tanque de viaje.</value>
+        </field>
+        <field name="ActivityFrom" type="time[]">
+          <value index="0">12:00:00.000</value>
+          <value index="1">16:00:00.000</value>
+          <value index="2">16:30:00.000</value>
+          <value index="3">18:00:00.000</value>
+          <value index="4">18:15:00.000</value>
+          <value index="5">19:00:00.000</value>
+          <value index="6">21:30:00.000</value>
+          <value index="7">22:00:00.000</value>
+        </field>
+        <field name="ActivityCodeNo" type="string[]">
+          <value index="0">6</value>
+          <value index="1">6</value>
+          <value index="2">6</value>
+          <value index="3">21</value>
+          <value index="4">6</value>
+          <value index="5">6</value>
+          <value index="6">21</value>
+        </field>
+        <field name="ActivityHiddenCodeNo" type="string[]">
+          <value index="0">6</value>
+          <value index="1">6</value>
+          <value index="2">6</value>
+          <value index="3">21</value>
+          <value index="4">6</value>
+          <value index="5">6</value>
+          <value index="6">21</value>
+        </field>
+        <field name="ActivityHiddenCodeMapping" type="string[]">
+          <value index="0">6</value>
+          <value index="1">6</value>
+          <value index="2">6</value>
+          <value index="3">21</value>
+          <value index="4">6</value>
+          <value index="5">6</value>
+          <value index="6">21</value>
+        </field>
+        <field name="ActivityFromLastSaved" type="time[]">
+          <value index="0">12:00:00.000</value>
+          <value index="1">16:00:00.000</value>
+          <value index="2">16:30:00.000</value>
+          <value index="3">18:00:00.000</value>
+          <value index="4">18:15:00.000</value>
+          <value index="5">19:00:00.000</value>
+          <value index="6">21:30:00.000</value>
+          <value index="7">22:00:00.000</value>
+        </field>
+        <field name="ActivityHiddenCodeNoLastSaved" type="string[]">
+          <value index="0">6</value>
+          <value index="1">6</value>
+          <value index="2">6</value>
+          <value index="3">21</value>
+          <value index="4">6</value>
+          <value index="5">6</value>
+          <value index="6">21</value>
+        </field>
+        <field name="ActivityTo" type="time[]">
+          <value index="0">16:00:00.000</value>
+          <value index="1">16:30:00.000</value>
+          <value index="2">18:00:00.000</value>
+          <value index="3">18:15:00.000</value>
+          <value index="4">19:00:00.000</value>
+          <value index="5">21:30:00.000</value>
+          <value index="6">22:00:00.000</value>
+        </field>
+        <field name="ActivityElapsedTime" type="time[]">
+          <value index="0">04:00:00.000</value>
+          <value index="1">00:30:00.000</value>
+          <value index="2">01:30:00.000</value>
+          <value index="3">00:15:00.000</value>
+          <value index="4">00:45:00.000</value>
+          <value index="5">02:30:00.000</value>
+          <value index="6">00:30:00.000</value>
+        </field>
+        <field name="ActivityHiddenCalendarDate" type="date[]">
+          <value index="0">2017-12-31 00:00:00.000</value>
+          <value index="1">2017-12-31 00:00:00.000</value>
+          <value index="2">2017-12-31 00:00:00.000</value>
+          <value index="3">2017-12-31 00:00:00.000</value>
+          <value index="4">2017-12-31 00:00:00.000</value>
+          <value index="5">2017-12-31 00:00:00.000</value>
+          <value index="6">2017-12-31 00:00:00.000</value>
+        </field>
+        <field name="ActivityHiddenFromCalendarDate" type="date[]">
+          <value index="0">2017-12-31 00:00:00.000</value>
+          <value index="1">2017-12-31 00:00:00.000</value>
+          <value index="2">2017-12-31 00:00:00.000</value>
+          <value index="3">2017-12-31 00:00:00.000</value>
+          <value index="4">2017-12-31 00:00:00.000</value>
+          <value index="5">2017-12-31 00:00:00.000</value>
+          <value index="6">2017-12-31 00:00:00.000</value>
+        </field>
+        <field name="ActivityHiddenToCalendarDate" type="date[]">
+          <value index="0">2017-12-31 00:00:00.000</value>
+          <value index="1">2017-12-31 00:00:00.000</value>
+          <value index="2">2017-12-31 00:00:00.000</value>
+          <value index="3">2017-12-31 00:00:00.000</value>
+          <value index="4">2017-12-31 00:00:00.000</value>
+          <value index="5">2017-12-31 00:00:00.000</value>
+          <value index="6">2017-12-31 00:00:00.000</value>
+        </field>
+        <field name="ActivityToLastSaved" type="time[]">
+          <value index="0">16:00:00.000</value>
+          <value index="1">16:30:00.000</value>
+          <value index="2">18:00:00.000</value>
+          <value index="3">18:15:00.000</value>
+          <value index="4">19:00:00.000</value>
+          <value index="5">21:30:00.000</value>
+          <value index="6">22:00:00.000</value>
+        </field>
+      </container>
+      <field name="TimeSummary" type="double[]">
+        <value index="0">
+        </value>
+        <value index="1">
+        </value>
+        <value index="2">
+        </value>
+        <value index="3">
+        </value>
+        <value index="4">
+        </value>
+        <value index="5">9.25</value>
+        <value index="6">
+        </value>
+        <value index="7">
+        </value>
+        <value index="8">
+        </value>
+        <value index="9">
+        </value>
+        <value index="10">
+        </value>
+        <value index="11">
+        </value>
+        <value index="12">
+        </value>
+        <value index="13">
+        </value>
+        <value index="14">
+        </value>
+        <value index="15">
+        </value>
+        <value index="16">
+        </value>
+        <value index="17">
+        </value>
+        <value index="18">
+        </value>
+        <value index="19">
+        </value>
+        <value index="20">0.75</value>
+        <value index="21">
+        </value>
+        <value index="22">
+        </value>
+        <value index="23">10</value>
+      </field>
+      <field name="DayWorkTimeSummary" type="double[]"/>
+      <field name="TimeSummaryCompletion" type="double[]"/>
+      <container name="Payroll" index="0">
+        <field name="PayrollNoDaysSinceLastLostTimeAccident" type="integer"/>
+        <field name="PayrollCrew" type="string[]"/>
+        <field name="PayrollEmployeeIdNo" type="string[]"/>
+        <field name="PayrollName" type="string[]"/>
+        <field name="PayrollHours" type="double[]"/>
+        <field name="PayrollInitial" type="string[]"/>
+        <field name="PayrollInjuredYesNo" type="string[]"/>
+        <field name="PayrollPayCode" type="string[]"/>
+        <field name="PayrollEmpID" type="string[]"/>
+        <field name="PayrollWasImported" type="integer[]"/>
+      </container>
+      <container name="DeviationSurveys" index="0">
+        <field name="DeviationSurveysHorizDisp" type="double[]"/>
+        <field name="DeviationSurveysTVD" type="double[]" unit="ft"/>
+        <field name="DeviationSurveysDirection" type="double[]"/>
+        <field name="DeviationSurveysDeviation" type="double[]"/>
+        <field name="DeviationSurveysDepth" type="double[]" unit="ft"/>
+      </container>
+      <container name="DepthDrilled" index="0">
+        <field name="DepthDrilledWeightOnBit" type="string[]" unit="Klbf"/>
+        <field name="DepthDrilledRotaryRPM" type="string[]"/>
+        <field name="DepthDrilledFormation" type="string[]"/>
+        <field name="DepthDrilledCoreNo" type="integer[]"/>
+        <field name="DepthDrilledDrilledReamedCored" type="string[]"/>
+        <field name="DepthDrilledTo" type="double[]" unit="ft"/>
+        <field name="DepthDrilledFrom" type="double[]" unit="ft"/>
+      </container>
+      <container name="DrillerSign" index="0">
+        <field name="BlankSpace" type="string"/>
+        <field name="DrillerSignature" type="string"/>
+        <field name="DrillerSignaturePrinted" type="string"/>
+      </container>
+      <container name="MudMaterialAdded" index="0">
+        <field name="MudMaterialAddedAmount" type="integer[]"/>
+        <field name="MudMaterialAddedType" type="string[]"/>
+      </container>
+      <container name="MudRecord" index="0">
+        <field name="MudRecordExtraField" type="string[]"/>
+        <field name="MudRecordSolids" type="double[]"/>
+        <field name="MudRecordpH" type="double[]"/>
+        <field name="MudRecordFluidLoss" type="double[]" unit="ml/30min"/>
+        <field name="MudRecordGelStrength" type="string[]" unit="lbf/100ft^2"/>
+        <field name="MudRecordPVYP" type="string[]"/>
+        <field name="MudRecordFunnel" type="double[]" unit="s/qt"/>
+        <field name="MudRecordPressureGradient" type="double[]" unit="psi/ft"/>
+        <field name="MudRecordWeight" type="double[]" unit="lb/gal"/>
+        <field name="MudRecordTime" type="time[]"/>
+      </container>
+      <container name="BitTripCondition" index="0">
+        <field name="BitTripConditionReasonPulled" type="string"/>
+        <field name="BitTripConditionOtherDullChar" type="string"/>
+        <field name="BitTripConditionGage" type="string" unit="in"/>
+        <field name="BitTripConditionBearingSeals" type="string"/>
+        <field name="BitTripConditionCuttingStructureLocation" type="string"/>
+        <field name="BitTripConditionCuttingStructureDullChar" type="string"/>
+        <field name="BitTripConditionCuttingStructureOuter" type="string"/>
+        <field name="BitTripConditionCuttingStructureInner" type="string"/>
+      </container>
+      <container name="Bit" index="1">
+        <field name="BitTotalHoursRun" type="double"/>
+        <field name="BitTotalDrilled" type="double" unit="ft"/>
+        <field name="BitDepthIn" type="double" unit="ft"/>
+        <field name="BitDepthOut" type="double" unit="ft"/>
+        <field name="BitTFA" type="double"/>
+        <field name="BitJets" type="integer[]"/>
+        <field name="BitSerialNo" type="string"/>
+        <field name="BitType" type="string"/>
+        <field name="BitMFG" type="string"/>
+        <field name="BitIADCCodes" type="string[]"/>
+        <field name="BitSize" type="double" unit="in"/>
+        <field name="BitNo" type="string"/>
+      </container>
+      <container name="Bit" index="0">
+        <field name="BitTotalHoursRun" type="double"/>
+        <field name="BitTotalDrilled" type="double" unit="ft"/>
+        <field name="BitDepthIn" type="double" unit="ft"/>
+        <field name="BitDepthOut" type="double" unit="ft"/>
+        <field name="BitTFA" type="double"/>
+        <field name="BitJets" type="integer[]"/>
+        <field name="BitSerialNo" type="string"/>
+        <field name="BitType" type="string"/>
+        <field name="BitMFG" type="string"/>
+        <field name="BitIADCCodes" type="string[]"/>
+        <field name="BitSize" type="double" unit="in"/>
+        <field name="BitNo" type="string"/>
+      </container>
+      <container name="DrillingAssembly" index="0">
+        <field name="DrillingAssemblyWTofString" type="integer"/>
+        <field name="DrillingAssemblyTotal" type="double" unit="ft"/>
+        <field name="DrillingAssemblyKellydown" type="double" unit="ft"/>
+        <field name="DrillingAssemblySinglesLength" type="double" unit="ft"/>
+        <field name="DrillingAssemblySinglesOD" type="string"/>
+        <field name="DrillingAssemblySingles" type="integer"/>
+        <field name="DrillingAssemblyStandsLength" type="double" unit="ft"/>
+        <field name="DrillingAssemblyStandsOD" type="string"/>
+        <field name="DrillingAssemblyStands" type="integer"/>
+        <field name="DrillingAssemblyNo" type="string[]"/>
+        <field name="DrillingAssemblyDescription" type="string[]"/>
+        <field name="DrillingAssemblyOD" type="string[]" unit="in"/>
+        <field name="DrillingAssemblyLength" type="double[]" unit="ft"/>
+      </container>
+    </container>
+    <container name="ReportAttributes" index="0">
+      <field name="ReportLocale" type="string">
+        <value index="0">en-US</value>
+      </field>
+      <field name="ReportLocalTimeOffset" type="integer">
+        <value index="0">-360</value>
+      </field>
+      <field name="ReportID" type="string">
+        <value index="0">beb30ef7-34c0-4bfc-8369-e0b9ce6f936d</value>
+      </field>
+      <field name="ReportBuildVersionCreated" type="string">
+        <value index="0">2017.10.12.41177</value>
+      </field>
+      <field name="ReportBuildVersionSaved" type="string">
+        <value index="0">2017.10.12.41177</value>
+      </field>
+      <field name="ReportRevision" type="integer">
+        <value index="0">65</value>
+      </field>
+      <field name="ReportLastExportRevision" type="integer">
+        <value index="0">65</value>
+      </field>
+      <field name="ReportActivityCodeRevision" type="double">
+        <value index="0">1</value>
+      </field>
+    </container>
+    <field name="ImportFromTimeClockSuccessfulOverride" type="integer">
+      <value index="0">1</value>
+    </field>
+    <field name="IADCLogo" type="string"/>
+    <field name="ReportRevision" type="string"/>
+  </container>
+</RMSExport>

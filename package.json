@@ -1,22 +1,37 @@
 {
-  "name": "electron-quick-start",
+  "name": "auto-ddr",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Auto advancement of DDR",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build-js": "babel src -d build/js",
+    "watch-js": "yarn build-js -- -w",
+    "build-css": "node-sass --recursive --output build/css --source-map true --source-map-contents styles",
+    "watch-css": "yarn build-css && yarn build-css -- --watch",
+    "build": "npm-run-all -p build-js build-css",
+    "dev": "npm-run-all -p start watch-js watch-css"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": "https://github.com/kebien6020/auto-ddr",
+  "author": "Kevin Peña",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^1.4.1"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "electron": "^1.7.11",
+    "electron-react-devtools": "^0.5.3",
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.5.1",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
